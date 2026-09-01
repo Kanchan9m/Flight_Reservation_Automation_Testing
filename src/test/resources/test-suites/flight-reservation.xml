@@ -1,0 +1,10 @@
+<suite name="flight-reservation">
+    <test name="passengers-count-1">
+        <parameter name="noOfPassengers" value="1" />
+        <parameter name="expectedPrice" value="$584 USD" />
+        <parameter name="testDataPath" value="test-data/flight-reservation/passenger-1.json" />
+        <classes>
+            <class name="com.example.tests.flightreservation.FlightReservationTest" />
+        </classes>
+    </test>
+</suite>
