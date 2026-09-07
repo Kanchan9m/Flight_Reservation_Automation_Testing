@@ -78,4 +78,5 @@ public class FlightReservationTest {
         Assert.assertEquals(flightConfirmationPage.getPrice(), testData.expectedPrice());
     }
 
+
 }
